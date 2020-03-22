@@ -102,3 +102,32 @@ dist
 
 # TernJS port file
 .tern-port
+.idea/
+
+#custom ignore
+/reports
+/node_modules
+/coverage
+/build
+/dist
+/dist_dev
+/lib
+/es
+/bin
+/example/dist
+/docs
+
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode
+.idea
+.rpt2_cache
+.vuepress
+.history
+report.*
+
+
+

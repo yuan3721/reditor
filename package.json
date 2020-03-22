@@ -1,0 +1,49 @@
+{
+  "name": "reditor",
+  "version": "0.0.1",
+  "description": "reditor",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "@types/node": "^13.1.8",
+    "@types/prosemirror-model": "^1.7.2",
+    "@types/prosemirror-state": "^1.2.3",
+    "classnames": "^2.2.6",
+    "codemirror": "^5.50.2",
+    "prosemirror-commands": "^1.1.3",
+    "prosemirror-example-setup": "^1.1.2",
+    "prosemirror-history": "^1.1.3",
+    "prosemirror-model": "^1.9.1",
+    "prosemirror-schema-basic": "^1.1.2",
+    "prosemirror-state": "^1.3.2",
+    "prosemirror-transform": "^1.2.3",
+    "prosemirror-view": "^1.13.7",
+    "w3c-keyname": "^2.2.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "rollup": "^1.29.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "dev": "ts-node --files scripts/parcel/dev.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuan3721/reditor.git"
+  },
+  "keywords": [
+    "editor",
+    "prosemirror"
+  ],
+  "author": "yuanjunwen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuan3721/reditor/issues"
+  },
+  "homepage": "https://github.com/yuan3721/reditor#readme"
+}
