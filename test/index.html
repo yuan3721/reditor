@@ -7,14 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+<style>
+    .reditor-container{
+        display: flex;
+    }
+    #reditor-edit{
+        flex: 1
+    }
+    #reditor-view{
+        flex: 1
+    }
+</style>
 <body>
-    <p>Hello world!</p>
-    <div id="reditor-edit">
-        <p>reditor</p>
+    <div class='reditor-container'>
+        <div id="reditor-edit">
+
+        </div>
+        <div id="reditor-view">
+
+        </div>
+        <div id="content" style="display: none">
+          <p>this is content </p>
+        </div>
     </div>
-    <div id="reditor-view">
-        <p>11111</p>
-    </div>
+
 </body>
 <script src="./index.js">
 

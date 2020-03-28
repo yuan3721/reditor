@@ -127,22 +127,22 @@ export const marks = {
     // :: MarkSpec A link. Has `href` and `title` attributes. `title`
     // defaults to the empty string. Rendered and parsed as an `<a>`
     // element.
-    link: {
-        attrs: {
-            href: {},
-            title: {default: null}
-        },
-        inclusive: false,
-        parseDOM: [{
-            tag: "a[href]", getAttrs(dom) {
-                return {href: dom.getAttribute("href"), title: dom.getAttribute("title")}
-            }
-        }],
-        toDOM(node) {
-            let {href, title} = node.attrs
-            return ["a", {href, title}, 0]
-        }
-    },
+    // link: {
+    //     attrs: {
+    //         href: {},
+    //         title: {default: null}
+    //     },
+    //     inclusive: false,
+    //     parseDOM: [{
+    //         tag: "a[href]", getAttrs(dom) {
+    //             return {href: dom.getAttribute("href"), title: dom.getAttribute("title")}
+    //         }
+    //     }],
+    //     toDOM(node) {
+    //         let {href, title} = node.attrs
+    //         return ["a", {href, title}, 0]
+    //     }
+    // },
 
     // :: MarkSpec An emphasis mark. Rendered as an `<em>` element.
     // Has parse rules that also match `<i>` and `font-style: italic`.

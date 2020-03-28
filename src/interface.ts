@@ -5,11 +5,13 @@ export { Plugin, PluginKey, Transaction, Node, Mark, Schema}
 export interface IModule {
     name: string,
     schema: Schema,
+    menuItem: any,
     plugins: Plugin[]
 }
 
 
 export interface IConfig {
     modules: IModule[],
-    plugins: Plugin[]
+    plugins: Plugin[],
+    contentNode: HTMLElement
 }

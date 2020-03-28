@@ -7,4 +7,4 @@ const entryFiles = join(process.cwd(),"/test/index.html");
 const options = {outDir: 'dist_dev'}
 const bundeler = new Bundeler(entryFiles,options);
 
-bundeler.serve(1234,false)
+bundeler.serve(1111,false)

@@ -8,7 +8,7 @@ export default class basicModule {
 
     constructor() {
         this.schema = schema
-        this.menu = {}
+        // this.menu = {}
         this.plugins = [new Plugin({
             key: new PluginKey(this.name)
         })]
